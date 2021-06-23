@@ -296,6 +296,7 @@ img {
             cursor: pointer;
             transition: all ease 0.7s;
             width: 300px;
+
             .name {
                 color: #fff;
             }
@@ -316,6 +317,7 @@ img {
         }
     }
     .arrow {
+        animation-duration: 5s;
         text-align: center;
         align-self: center;
         padding: 15px;
@@ -340,6 +342,23 @@ img {
         margin: 0px;
     }
 }
+
+#card2{
+    animation-duration: 3s;
+}
+#card3{
+    animation-duration: 3s;
+}
+
+#card1{
+    animation-duration: 2s;
+}
+
+#card4{
+    animation-duration: 2s;
+}
+
+
 
 /************************************ BLOG *************************************/
 
@@ -724,15 +743,19 @@ img {
 
     #our_team {
         width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
         #people {
-            display: flex;
+            display: block;
+
             .person {
-                width: 200px;
+                margin: auto;
+                margin-top: 30px;
+                width: 300px;
+                align-self: center;
             }
-            #visible {
-                display: none;
-            }
-            #visible1 {
+            .arrow {
                 display: none;
             }
         }
@@ -1025,8 +1048,9 @@ img {
             display: flex;
             flex-wrap: wrap;
             .person {
-                width: 200px;
-                margin-top: 20px;
+                width: 300px;
+                margin: auto;
+                margin-top: 30px;
             }
             .arrow {
                 display: none;

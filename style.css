@@ -247,6 +247,7 @@ img {
     #our_team .person p {
       color: #646464; }
   #our_team .arrow {
+    animation-duration: 5s;
     text-align: center;
     align-self: center;
     padding: 15px;
@@ -266,6 +267,18 @@ img {
     color: #f7f7f7;
     padding: 0px;
     margin: 0px; }
+
+#card2 {
+  animation-duration: 3s; }
+
+#card3 {
+  animation-duration: 3s; }
+
+#card1 {
+  animation-duration: 2s; }
+
+#card4 {
+  animation-duration: 2s; }
 
 /************************************ BLOG *************************************/
 #blog {
@@ -551,14 +564,18 @@ img {
 
   /************************************ OUR TEAM *************************************/
   #our_team {
-    width: 60%; }
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px; }
     #our_team #people {
-      display: flex; }
+      display: block; }
       #our_team #people .person {
-        width: 200px; }
-      #our_team #people #visible {
-        display: none; }
-      #our_team #people #visible1 {
+        margin: auto;
+        margin-top: 30px;
+        width: 300px;
+        align-self: center; }
+      #our_team #people .arrow {
         display: none; }
     #our_team h2 {
       font-size: 70px;
@@ -765,8 +782,9 @@ img {
       display: flex;
       flex-wrap: wrap; }
       #our_team #people .person {
-        width: 200px;
-        margin-top: 20px; }
+        width: 300px;
+        margin: auto;
+        margin-top: 30px; }
       #our_team #people .arrow {
         display: none; }
     #our_team h2 {
